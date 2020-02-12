@@ -99,41 +99,7 @@
 
         </div>
     </div>
-        <div class="modal fade bs-modal-md in" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="reviewModal"
-             aria-hidden="true" data-backdrop="static">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="modal-title" id="myModalLabel">Do you like HRM? Help us Grow :)</h4>
-
-                    </div>
-                    <div class="modal-body">
-                        <div class="note note-info font-14 m-l-5">
-
-                            We hope you love it. If you do, would you mind taking 10 seconds to leave me a short review on codecanyon?
-                            <br>
-                            This helps us to continue providing great products, and helps potential buyers to make confident decisions.
-                            <hr>
-                            Thank you in advance for your review and for being a preferred customer.
-
-                            <hr>
-
-                            <p class="text-center">
-                                <a href="{{\Froiden\Envato\Functions\EnvatoUpdate::reviewUrl()}}"> <img src="{{asset('assets/global/img/hrm-review.png')}}" alt=""></a>
-                                <button type="button" class="btn btn-link" data-dismiss="modal" onclick="hideReviewModal('closed_permanently_button_pressed')">Hide Pop up permanently</button>
-                                <button type="button" class="btn btn-link" data-dismiss="modal" onclick="hideReviewModal('already_reviewed_button_pressed')">Already Reviewed</button>
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="{{\Froiden\Envato\Functions\EnvatoUpdate::reviewUrl()}}" target="_blank" type="button" class="btn btn-success">Give Review</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END DASHBOARD STATS -->
+    <!-- END DASHBOARD STATS -->
     @endsection
 
     @section('footerjs')
