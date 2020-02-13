@@ -11,24 +11,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+	{!!  HTML::style("assets/global/plugins/font-awesome/css/font-awesome.min.css")  !!}
+	{!!  HTML::style("assets/global/plugins/bootstrap/css/bootstrap.min.css")  !!}
+	{!!  HTML::style("assets/admin/pages/css/login-soft.css")  !!}
+	{!!  HTML::style("assets/global/css/components.css")  !!}
+	{!!  HTML::style("assets/admin/layout/css/layout.css")  !!}
+	{!!  HTML::style("assets/admin/layout/css/themes/darkblue.css")  !!}
+	{!!  HTML::style('assets/global/plugins/froiden-helper/helper.css')  !!}
 
-    <!-- CSS Global Compulsory -->
-    {!! HTML::style('front_assets/plugins/bootstrap/css/bootstrap.min.css') !!}
-    {!! HTML::style('front_assets/css/style.css') !!}
-
-    <!-- CSS Implementing Plugins -->
-    {!! HTML::style('front_assets/plugins/line-icons/line-icons.css') !!}
-    {!! HTML::style('front_assets/plugins/font-awesome/css/font-awesome.min.css') !!}
-
-    <!-- CSS Page Style -->
-    {!! HTML::style('front_assets/css/pages/page_log_reg_v2.css') !!}
-
-    <!-- CSS Theme -->
-    {!! HTML::style('front_assets/css/theme-colors/default.css') !!}
-
-    <!-- CSS Customization -->
-    {!! HTML::style('front_assets/css/custom.css') !!}
-    {!! HTML::style('assets/global/plugins/froiden-helper/helper.css')  !!}
 </head> 
 <style>
 	.myfont-head{
