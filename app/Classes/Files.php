@@ -42,7 +42,7 @@ class Files
         $newPath = $folder . $newName;
 
         /** @var UploadedFile $uploadedFile */
-        $uploadedFile->move(public_path('user-uploads/temp'), $newName);
+        $uploadedFile->storeAs('temp', $newName);
 
         if (!empty($crop)) {
             // Crop image

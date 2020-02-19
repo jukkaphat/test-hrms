@@ -20,6 +20,7 @@
         "maatwebsite/excel": "^3.0",
         "pcinaglia/laraupdater": "^1.0",
         "rundiz/thai-date": "^2.0",
+        "symfony/translation": "4.3.8",
         "yajra/laravel-datatables-oracle": "~9.0",
         "zanysoft/laravel-zip": "^1.0"
     },
